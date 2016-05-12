@@ -53,11 +53,7 @@
 		public static var STRONG_EASE_OUT:Function 			= Strong.easeOut;
 		
 		public function TweenIt() {
-			// constructor code
-			if(_instance){
-				throw new Error("TweenIt... use TweenIt.transition(...)");
-			} 
-			_instance = this;
+			// constructor
 		}
 		
 		public static function transition(tweenName:String, item:DisplayObject, time:Number, params:Object, ease:Function = null, callback:Function = null):void{
