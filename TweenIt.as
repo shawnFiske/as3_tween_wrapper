@@ -23,9 +23,7 @@
 	///////////////////////////////////////////////////////////////////////
 	
 	public class TweenIt {
-		
-		private static var _instance:TweenIt;
-
+	
 		//Easy Types
 		public static var NONE_EASE_NONE:Function 			= None.easeNone;
 		public static var NONE_EASE_IN:Function 			= None.easeIn;
